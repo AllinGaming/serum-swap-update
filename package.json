@@ -13,6 +13,9 @@
   "scripts": {
     "build": "tsc",
     "start": "tsc --watch",
+    "clean": "del -rf lib",
+    "docs": "typedoc --excludePrivate --out ../../docs/swap src/index.ts --includeVersion --readme none",
+    "prepare": "run-s clean build",
     "shell": "node -e \"$(< shell)\" -i --experimental-repl-await"
   },
   "devDependencies": {
