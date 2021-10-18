@@ -4,6 +4,7 @@
     "outDir": "./lib",
     "allowJs": true,
     "checkJs": true,
+    "downlevelIteration": true,
     "declaration": true,
     "declarationMap": true,
     "noImplicitAny": false,
