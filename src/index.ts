@@ -128,12 +128,12 @@ export class Swap {
   /**
    * Anchor generated client for the swap program.
    */
-  private program: Program;
+  public program: Program;
 
   /**
    * Token list registry for fetching USD(x) markets for each mint.
    */
-  private swapMarkets: SwapMarkets;
+   public swapMarkets: SwapMarkets;
 
   /**
    * @param provider  The wallet and network context to use for the client.
